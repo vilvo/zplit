@@ -34,9 +34,9 @@ sort_by = "date"
 - [x] Lightweight and minimal
 - [x] Responsive for mobile support (with full-page mobile menu)
 - [ ] Open Graph and Twitter Cards support
-- [ ] Social links
+- [x] Social links
 - [x] Deploy via Netlify (config already included)
-- [ ] Easily extendable menu
+- [x] Easily extendable menu
 - [ ] Multilanguage support
 - [ ] De-googled (local assets)
 
