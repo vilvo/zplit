@@ -42,7 +42,7 @@
     {%- endblock rss -%}
 
   </head>
-  <body id="top" class="body">
+  <body id="fullsingle" class="page-template-page-fullsingle-split">
     <div class="fs-split">
       {# Left content #}
       <div class="split-image"></div>
@@ -59,17 +59,15 @@
           {%- endblock bio -%}
 
           {%- block lists -%}
-
+          <div class="split-lists">
           {{ lists::connect() }}
-
           {{ lists::social() }}
-
+          </div><!--./lists-->
           {%- endblock lists -%}
 
           <div class="split-credit"></div>
-        </div>
-      </div>
-
+        </div><!--./vertically-centered-->
+      </div><!--./split-content-->
     </div><!--./fs-split-->
 
   </body>

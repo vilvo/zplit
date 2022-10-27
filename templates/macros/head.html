@@ -16,7 +16,7 @@
         <style>
          .fs-split .split-image {
              background-image: url("{{ get_url(path=config.extra.visual.background) }}");
-             background-position: "{{ img_pos }}";
+             background-position: {{ img_pos }};
          }
         </style>
     {% endif %}
