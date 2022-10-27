@@ -26,12 +26,7 @@ taxonomies = [
 highlight_code = false
 
 [extra]
-# Default author for articles
 author = "Jenny Jones"
-
-show_author = true
-show_tags = true
-show_categories = true
 
 # Menu items to display. You define a url and the name of the menu item.
 # NOTE: `$BASE_URL/` must be included in the url name.
@@ -41,11 +36,14 @@ main_menu = [
               {url="/about", name="about"},
 ]
 
-# copyright = "&copy;2022 gicrisf"
+[extra.content]
+
+intro_tagline = "Designer. Stylist. Nomad."
 
 [extra.visual]
 
 background = "images/background.jpg"
+position = "center center"
 
 [extra.links]
 

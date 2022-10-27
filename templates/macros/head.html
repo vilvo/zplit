@@ -1,9 +1,24 @@
 {% macro styling() %}
     <link rel="stylesheet" href="{{ get_url(path="split.css") }}">
-    <link rel="stylesheet" href="{{ get_url(path="assets/css/split.css") }}">
 
     {%- if config.extra.custom_css is defined -%}
         <link rel="stylesheet" href="{{ get_url(path="custom.css") }}">
+    {% endif %}
+
+    {%- if config.extra.visual.background is defined -%}
+        {# Get position #}
+        {% if config.extra.visual.background_position is defined %}
+        {% set img_pos = config.extra.visual.background_position %}
+        {% else %}
+        {% set img_pos = "center center" %}
+        {% endif %}
+
+        <style>
+         .fs-split .split-image {
+             background-image: url("{{ get_url(path=config.extra.visual.background) }}");
+             background-position: "{{ img_pos }}";
+         }
+        </style>
     {% endif %}
 {% endmacro styling %}
 

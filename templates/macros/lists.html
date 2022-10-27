@@ -1,7 +1,37 @@
-{% macro list_pages(pages) %}
-<div class="posts">
-  {%- for page in pages -%}
-  {{ posts::card(page=page, full=false) }}
-  {%- endfor -%}
+{% macro connect() %}
+{% if config.extra.lists %}
+<div class="split-lists">
+    {% if config.extra.lists.connect is defined %}
+    <!-- Connect list -->
+    <div class="split-list">
+        <h3>Connect</h3>
+        <ul>
+            {% for item in config.extra.lists.connect %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}{# Connect #}
+{% endif %}
+{% endmacro connect %}
+
+{% macro social() %}
+{% if config.extra.lists %}
+    {% if config.extra.lists.social is defined %}
+    <!-- Social list -->
+    <div class="split-list">
+        <h3>Social</h3>
+        <ul>
+            {% for item in config.extra.lists.social %}
+            <li>
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}{# Social #}
 </div>
-{% endmacro list_pages %}
+{% endif %}
+{% endmacro social %}
