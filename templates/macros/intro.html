@@ -1,5 +1,6 @@
 {% macro intro() %}
 <div class="split-intro">
+    <h1> {{ config.extra.author }}</h1>
     {% if config.extra.content.intro_tagline is defined %}
     <span class="tagline">{{ config.extra.content.intro_tagline }}</span>
     {% else %}
