@@ -1,0 +1,69 @@
+# The URL the site will be built for
+base_url = "/"
+
+title = "Zplit"
+description = "A single page theme for a professional online presense."
+
+# Whether to generate a RSS feed automatically
+generate_feed = true
+feed_filename = "rss.xml"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Built in taxonomies of zplit.
+taxonomies = [
+           {name = "tags"},
+#           {name = "categories"},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Default author for articles
+author = "Jenny Jones"
+
+show_author = true
+show_tags = true
+show_categories = true
+
+# Menu items to display. You define a url and the name of the menu item.
+# NOTE: `$BASE_URL/` must be included in the url name.
+main_menu = [
+              {url="/tags/", name="tags"},
+              {url="/categories/", name="categories"},
+              {url="/about", name="about"},
+]
+
+# copyright = "&copy;2022 gicrisf"
+
+[extra.visual]
+
+background = "images/background.jpg"
+
+[extra.links]
+
+connect = [
+    { url = "#", text="Blog", new_tab = true },
+    { url = "#", text="Email", new_tab = false },
+    { url = "#", text="Newsletter", new_tab = false },
+]
+
+social = [
+    {url = "https://t.me/zwitterio", telegram = "name"},
+    {url = "https://twitter.com/gicrisf", name = "twitter"},
+    {url = "https://github.com/gicrisf", name = "github"},
+]
+
+# network = []
+
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split
