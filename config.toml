@@ -54,9 +54,9 @@ connect = [
 ]
 
 social = [
-    {url = "https://t.me/zwitterio", name = "telegram"},
-    {url = "https://twitter.com/gicrisf", name = "twitter"},
-    {url = "https://github.com/gicrisf", name = "github"},
+    {url = "https://t.me/zwitterio", text = "Telegram"},
+    {url = "https://twitter.com/gicrisf", text = "Twitter"},
+    {url = "https://github.com/gicrisf", text = "Github"},
 ]
 
 # network = []
