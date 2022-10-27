@@ -45,7 +45,7 @@ intro_tagline = "Designer. Stylist. Nomad."
 background = "images/background.jpg"
 position = "center center"
 
-[extra.links]
+[extra.lists]
 
 connect = [
     { url = "#", text="Blog", new_tab = true },
@@ -54,7 +54,7 @@ connect = [
 ]
 
 social = [
-    {url = "https://t.me/zwitterio", telegram = "name"},
+    {url = "https://t.me/zwitterio", name = "telegram"},
     {url = "https://twitter.com/gicrisf", name = "twitter"},
     {url = "https://github.com/gicrisf", name = "github"},
 ]

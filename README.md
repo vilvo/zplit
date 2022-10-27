@@ -30,16 +30,18 @@ sort_by = "date"
 ```
 
 ## Features
+
 - [x] Lightweight and minimal
 - [x] Responsive for mobile support (with full-page mobile menu)
 - [ ] Open Graph and Twitter Cards support
-- [ ] Social buttons
+- [ ] Social links
 - [x] Deploy via Netlify (config already included)
 - [ ] Easily extendable menu
 - [ ] Multilanguage support
 - [ ] De-googled (local assets)
 
 ## Donate
+
 Did you liked this theme? Make a donation and support new features!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V425BFU)
