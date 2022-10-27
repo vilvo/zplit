@@ -1,0 +1,129 @@
+{% import "macros/head.html" as head -%}
+{% import "macros/header.html" as header -%}
+{% import "macros/lists.html" as lists -%}
+{% import "macros/social.html" as social -%}
+{% import "macros/menu.html" as menu -%}
+
+<!DOCTYPE html>
+<html lang="{{ config.default_language }}" data-theme="light" dir="ltr">
+  <head>
+    {%- block title -%}
+        <title>{{ config.title }}</title>
+    {%- endblock title -%}
+
+    {%- block general_meta -%}
+        {{ head::general_meta() }}
+    {%- endblock general_meta -%}
+
+    {%- block og_preview -%}
+        {{ social::og_preview() }}
+    {%- endblock og_preview -%}
+
+    {%- block twitter_preview -%}
+        {{ social::twitter_preview() }}
+    {%- endblock twitter_preview -%}
+
+    {%- block fonts -%}
+        {{ head::fonts() }}
+    {%- endblock fonts -%}
+
+    {%- block css -%}
+        {{ head::styling() }}
+    {%- endblock css -%}
+
+    {%- block favicon -%}
+        {{ head::favicon() }}
+    {%- endblock favicon -%}
+
+    {%- block rss -%}
+        {{ head::rss() }}
+    {%- endblock rss -%}
+
+  </head>
+  <body id="top" class="body">
+    <div class="columns w-row">
+      {# Left content #}
+      <div class="leftcontent w-col w-col-6 w-col-stack">
+        <div data-w-id="b84f5156-c6e2-fb1d-6606-98a08030a472" style="opacity:0" class="image"></div>
+      </div>
+
+      {# Right content #}
+      <div class="rightcontent w-col w-col-6 w-col-stack">
+        <div data-w-id="3fd5aeb3-22da-ed60-7286-0d11f16597d3" style="opacity:0" class="content">
+          <div class="name">Jenny Jones</div>
+          <h1 class="tagline"><strong class="bold-text">Designer. Stylist. Nomad.</strong></h1>
+          <p class="bio">Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra <a href="#" class="bio-links">luctus urna</a> ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, <a href="#" class="bio-links">ipsum in</a> malesuada congue, <a href="#" class="bio-links">purus sem</a> ullamcorper massa, sit amet lacinia nibh enim sed massa. </p>
+          <div class="links w-row">
+            <div class="column w-col w-col-4">
+              <div class="text-block-2">Connect</div>
+              <ul role="list" class="list w-list-unstyled">
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Email</a>
+                </li>
+                <li>
+                  <a href="#">Newsletter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="column-2 w-col w-col-4">
+              <div class="text-block-2">social</div>
+              <ul role="list" class="list w-list-unstyled">
+                <li>
+                  <a href="#">Twitter</a>
+                </li>
+                <li>
+                  <a href="#">Instagram</a>
+                </li>
+                <li>
+                  <a href="#">Dribbble</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-col w-col-4">
+              <div class="text-block-2">network</div>
+              <ul role="list" class="list w-list-unstyled">
+                <li>
+                  <a href="#">Link One</a>
+                </li>
+                <li>
+                  <a href="#">Link Two</a>
+                </li>
+                <li>
+                  <a href="#">Link Three</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="credit">©2020 Your Name - <a href="https://onepagelove.com/split" target="_blank" class="credit-links">Split Template</a> by <a href="https://onepagelove.com" target="_blank" class="credit-links">One Page Love</a>
+          </div>
+        </div>
+      </div>
+
+    <div id="page-wrapper">
+      {%- block header -%}
+          {# header::header() #}
+      {%- endblock header -%}
+
+      <section id="start">
+        {%-  block main -%}
+        <section id="body-wrapper" class="section">
+          <section class="container">
+
+            <div id="item" class="blog-listing">
+            {%- block content -%}
+              {# lists::list_pages() #}
+            {%- endblock content -%}
+            </div>
+
+          </section>
+        </section>
+        {%- endblock main -%}
+      </section>
+
+    </div><!-- ./page-wrapper -->
+
+  </body>
+</html>
