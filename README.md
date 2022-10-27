@@ -38,7 +38,7 @@ sort_by = "date"
 - [x] Deploy via Netlify (config already included)
 - [x] Easily extendable menu
 - [ ] Multilanguage support
-- [ ] De-googled (local assets)
+- [x] De-googled (local assets)
 
 ## Donate
 
