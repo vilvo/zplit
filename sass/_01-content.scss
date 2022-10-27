@@ -83,6 +83,11 @@ body.page-template-page-fullsingle-split {
     @media (max-width: $bp-tablet ) {
       height: 80vh;
       width: 100%;
+      position: static;
+      height: 420px;
+      max-height: 50vh;
+      min-height: auto;
+      background-position: 50% 0%;
     }
 
   }
@@ -102,19 +107,27 @@ body.page-template-page-fullsingle-split {
     @media (max-width: $bp-tablet ) {
       width: 100%;
       height: auto;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    @media (max-width: $bp-smallish ) {
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
 
     .split-content-vertically-center {
       padding: 80px;
       max-width: 640px;
       margin-top: auto;
-        margin-bottom: auto;
+      margin-bottom: auto;
 
       @media (max-width: $bp-smallish ) {
         padding: 60px;
       }
 
       @media (max-width: $bp-tablet ) {
+        margin-top: 0px;
         padding: 40px;
       }
 
@@ -160,6 +173,7 @@ body.page-template-page-fullsingle-split {
 
 .split-bio {
   padding: 40px 0 20px 0;
+  margin-bottom: 40px;
   font-family: 'Lora', serif;
 
   @media (max-width: $bp-smallish ) {
