@@ -124,9 +124,9 @@ If you choose this way, you don't have to care about anything else in that file.
 - [x] Netlify support
 - [x] Custom CSS
 - [x] Custom colors
+- [x] 404 page
 - [ ] Open Graph and Twitter Cards support
 - [ ] Multilanguage support
-- [ ] 404 page
 
 ## Support me!
 

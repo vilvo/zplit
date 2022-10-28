@@ -8,16 +8,16 @@
 {# og_preview not desired here #}
 {%- endblock og_preview -%}
 
-{%- block content -%}
-<div class="post">
-  <div class="content-title text-center">
-    <h1 class="post-title">Not Found - 404</h1>
-    </div>
+{%- block intro -%}
+<div class="split-intro">
+  <span class="tagline">Not Found - 404</span>
 
-    <div class="post-content">
-      <p class="text-center">
-        The page you requested was not found.
-      </p>
-    </div>
+<p class="text-center">
+  The page you requested was not found.
+</p>
 </div>
-{%- endblock content -%}
+{%- endblock intro -%}
+
+{% block bio %}
+<div class="split-bio"></div>
+{% endblock bio %}
