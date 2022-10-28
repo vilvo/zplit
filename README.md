@@ -84,6 +84,35 @@ sort_by = "date"
 
 Showing the posts in the main page could need some tweaking of the code, because it's not an officially supported feature.
 
+## Custom CSS
+
+Add a `custom.css` file in `static` directory and add all the changes you want to the original stylesheets. 
+
+## Custom colors
+
+If you want to tweak the colors or grid dimensions, though, it could be easier to directly edit the `_01-content.scss` file frontmatter, where the variables are easily exposed at the top of the file:
+
+``` scss
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Colors
+$color-background : #061C30;
+$color-text       : #848d96;
+$color-link       : #848d96;
+$color-link-hover : #CA486d;
+$color-maverick   : #47bec7;
+$color-tagline    : #CCCCCC;
+
+// Breakpoints
+$bp-smallish      : 1200px;
+$bp-tablet        : 800px;
+$bp-mobile        : 500px;
+```
+
+If you choose this way, you don't have to care about anything else in that file. Just look at the variables.
+
 ## Features
 
 - [x] Lightweight and minimal
@@ -93,8 +122,11 @@ Showing the posts in the main page could need some tweaking of the code, because
 - [x] Easily extendable menus
 - [x] De-googled (local assets are faster and more secure)
 - [x] Netlify support
+- [x] Custom CSS
+- [x] Custom colors
 - [ ] Open Graph and Twitter Cards support
 - [ ] Multilanguage support
+- [ ] 404 page
 
 ## Support me!
 
