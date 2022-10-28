@@ -26,15 +26,8 @@ taxonomies = [
 highlight_code = false
 
 [extra]
-author = "Jenny Jones"
 
-# Menu items to display. You define a url and the name of the menu item.
-# NOTE: `$BASE_URL/` must be included in the url name.
-main_menu = [
-              {url="/tags/", name="tags"},
-              {url="/categories/", name="categories"},
-              {url="/about", name="about"},
-]
+author = "Jenny Jones"
 
 [extra.content]
 
