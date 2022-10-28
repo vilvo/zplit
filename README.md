@@ -4,6 +4,8 @@ Zplit is a single page, centrally-divided layout for a professional online prese
 
 ![Zola Zplit Theme screenshot](screenshot.png)
 
+**DEMO**: [https://zplit.netlify.app/](https://zplit.netlify.app/)
+
 ## Installation
 
 Download this theme to your `themes` directory:
