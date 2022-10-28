@@ -1,6 +1,6 @@
 # Zplit
 
-Zplit is a single page, centrally-divided layout for a professional online presense with a big image or video left with alongside content. It is a port of [Split](//onepagelove.com/split) by [One Page Love](//onepagelove.com).
+Zplit is a single page, centrally-divided layout for a professional online presence with a big image or video left with alongside content. It is a port of [Split](//onepagelove.com/split) by [One Page Love](//onepagelove.com) for [Zola](https://www.getzola.org/).
 
 ![Zola Zplit Theme screenshot](screenshot.png)
 
@@ -24,7 +24,7 @@ theme = "zhuia"
 ## Getting started
 
 You can find the most important file of the theme in the root directory. It's called `config.toml`.
-Edit it, specifying your personal preferences. Go through this (small) file to set some self-explaining variable, such as `author` in `[extra]` section or `intro_tagline` under `[extra.content]`. 
+Edit it, specifying your personal preferences. Go through this (small) file to set some self-explaining variable, such as `author` under `[extra]` or `intro_tagline` under `[extra.content]`. 
 
 If something appears not that evident, maybe you missed the ["configuration" paragraph of the Zola official documentation](https://www.getzola.org/documentation/getting-started/configuration/). Even if this is your first time with a static site generator, don't be scared and go through the docs, because it's very basic stuff.
 
@@ -42,7 +42,7 @@ Edit the `[extra.visual]` section to set your background image of choice.
 background = "<your-image-file-path-goes-here>"
 ```
 
-You can fine this example already written as the default:
+You can find this example already written as the default:
 
 ```toml
 [extra.visual]
@@ -87,17 +87,18 @@ Showing the posts in the main page could need some tweaking of the code, because
 ## Features
 
 - [x] Lightweight and minimal
-- [x] Responsive for mobile support
-- [ ] Open Graph and Twitter Cards support
+- [x] Responsive (mobile support)
 - [x] Social links
 - [x] Deploy via Netlify (config already included)
-- [x] Easily extendable menu
-- [ ] Multilanguage support
+- [x] Easily extendable menus
 - [x] De-googled (local assets are faster and more secure)
+- [x] Netlify support
+- [ ] Open Graph and Twitter Cards support
+- [ ] Multilanguage support
 
-## Donate
+## Support me!
 
-Did you liked this theme? Make a donation and support new features!
+Do you love this theme? Was it useful to you? Make a donation and support new features!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V425BFU)
 
