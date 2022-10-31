@@ -16,7 +16,7 @@ build_search_index = false
 
 # Built in taxonomies of zplit.
 taxonomies = [
-           {name = "tags"},
+#           {name = "tags"},
 #           {name = "categories"},
 ]
 
@@ -41,7 +41,7 @@ position = "center center"
 [extra.lists]
 
 connect = [
-    { url = "#", text="Blog", new_tab = true },
+    { url = "/blog", text="Blog", new_tab = true },
     { url = "#", text="Email", new_tab = false },
     { url = "#", text="Newsletter", new_tab = false },
 ]
