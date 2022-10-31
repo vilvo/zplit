@@ -127,6 +127,7 @@ If you choose this way, you don't have to care about anything else in that file.
 - [x] Custom CSS
 - [x] Custom colors
 - [x] 404 page
+- [x] Basic blogging features
 - [ ] Open Graph and Twitter Cards support
 - [ ] Multilanguage support
 
