@@ -4,8 +4,6 @@ license = "Creative Commons Attribution 3.0 License"
 homepage = "https://github.com/gicrisf/zplit"
 min_version = "0.15.0"
 demo = "https://zplit.netlify.app"
-created=2022-10-27
-updated=2022-10-28
 
 [author]
 name = "Giovanni Crisalfi"
